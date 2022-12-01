@@ -41,3 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4015665233
+    locked: 0
+  - name: BackgroundFX
+    uniqueID: 3245127703
+    locked: 0
+  - name: Grid
+    uniqueID: 1457405105
+    locked: 0
+  - name: Enitites
+    uniqueID: 1123454097
+    locked: 0
+  - name: PlayerNPC
+    uniqueID: 2766150625
+    locked: 0
+  - name: Foreground
+    uniqueID: 2334998497
+    locked: 0
+  - name: ForegroundFX
+    uniqueID: 3055831949
+    locked: 0
