@@ -4,20 +4,28 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float movementSpeed = 1f;
-
     [SerializeField]
-    private GameObject playerHead;
+    private PlayerStats playerStats;
 
+    private float movementSpeed = 1f;
     private Vector2 movement;
     private Animator headAnimator;
+
+    void Awake()
+    {
+        GameObject playerHead = playerStats.playerHead;
+        movementSpeed = playerStats.speed;
+        headAnimator = playerHead.GetComponent<Animator>();
+    }
+
     void Start()
     {
-        headAnimator = playerHead.GetComponent<Animator>();
+        
     }
 
     void Update()
     {
+        movementSpeed = playerStats.speed;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement = movement.normalized;
