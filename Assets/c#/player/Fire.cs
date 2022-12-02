@@ -14,11 +14,14 @@ public class Fire : MonoBehaviour
     private float shotSpeed = 2f;
     private float luck = 0f;
 
+    private float eyeHeight = 0.55f;
+
     //private Vector2 fireDirection;
     [SerializeField]
     private Transform leftEye;
     [SerializeField]
     private Transform rightEye;
+    
     private enum FireState { LeftEye, RightEye };
     private FireState fireState = FireState.LeftEye;
     private Animator headAnimator;
@@ -76,12 +79,12 @@ public class Fire : MonoBehaviour
         GameObject newTear;
         if (fireState == FireState.LeftEye)
         {
-            Vector3 vec = new Vector3(leftEye.position.x, leftEye.position.y - 0.1f - range / 27f, leftEye.position.z);
+            Vector3 vec = new Vector3(leftEye.position.x, leftEye.position.y - eyeHeight, leftEye.position.z);
             newTear = Instantiate(tear, vec, Quaternion.identity);
             fireState = FireState.RightEye;    
         } else
         {
-            Vector3 vec = new Vector3(rightEye.position.x, rightEye.position.y - 0.1f - range / 27f, rightEye.position.z);
+            Vector3 vec = new Vector3(rightEye.position.x, rightEye.position.y - eyeHeight, rightEye.position.z);
             newTear = Instantiate(tear, vec, Quaternion.identity);
             fireState = FireState.LeftEye;
         }
@@ -90,6 +93,7 @@ public class Fire : MonoBehaviour
         tc.range = range;
         tc.shotSpeed = shotSpeed;
         tc.direction = direction;
+        tc.eyeHeight = eyeHeight;
         Destroy(newTear, 10);
     }
 }
