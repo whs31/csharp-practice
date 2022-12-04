@@ -11,6 +11,10 @@ public class PlayerStats : MonoBehaviour
     public float verticalSpeedLimit = 3.5f;
     [Space(10)]
 
+    [Header("Movement Settings")]
+    public float maxHealth = 100f;
+    public float currentHealth = 100f;
+
     [HideInInspector]
     public GameObject player;
 
@@ -22,14 +26,5 @@ public class PlayerStats : MonoBehaviour
             Debug.Log("Player object not found");
         }
     }
-
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-        
-    }
+    
 }

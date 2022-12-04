@@ -5,10 +5,9 @@ using UnityEngine;
 [AddComponentMenu("Player/Movement")]
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField]
-    private Transform groundCheckTransform;
-    [SerializeField]
-    private LayerMask groundLayer;
+    [SerializeField] private Transform groundCheckTransform;
+    [SerializeField] private LayerMask groundLayer;
+
 
     private float horizontalSpeedLimit;
     private float verticalSpeedLimit;

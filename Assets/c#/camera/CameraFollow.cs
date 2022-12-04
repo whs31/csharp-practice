@@ -25,7 +25,6 @@ public class CameraFollow : MonoBehaviour
     {
         if(target != null)
         {
-            Debug.Log("found");
             Vector3 noZ = transform.position;
             noZ.z = target.transform.position.z;
             Vector3 targetDirection = target.transform.position - noZ;
