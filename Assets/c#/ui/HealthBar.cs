@@ -9,6 +9,7 @@ public class HealthBar : StatusBar
     {
         playerStats = GameObject.FindGameObjectWithTag("Manager").GetComponent<PlayerStats>();
         barTextPostfix = "HP";
+        textPrefferedWidth = barText.preferredWidth;
     }
 
     private void Update()

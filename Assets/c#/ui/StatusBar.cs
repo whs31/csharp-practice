@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 public class StatusBar : MonoBehaviour
 {
-    [SerializeField] protected Scrollbar bar;
-    [SerializeField] protected RectTransform barBase;
+    [SerializeField] protected GameObject bar;
     [SerializeField] protected TMPro.TextMeshProUGUI barText;
     [SerializeField] protected float maxValuePixelRatio = 1;
 
@@ -14,15 +13,21 @@ public class StatusBar : MonoBehaviour
     protected float value = 0;
     protected string barTextPostfix = "Units";
 
+    protected float textPrefferedWidth = 10f;
+
     protected void onValueChanged()
     {
-        bar.size = value / maxValue;
+        bar.GetComponent<Scrollbar>().size = value / maxValue;
         barText.text = Mathf.Round(value).ToString() + " " + barTextPostfix;
+        if(value * maxValuePixelRatio < textPrefferedWidth)
+        {
+            barText.text = "";
+        }
     }
     protected void onMaxValueChanged()
     {
-        barBase.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, maxValue * maxValuePixelRatio);
-        bar.size = value / maxValue;
+        bar.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, maxValue * maxValuePixelRatio);
+        bar.GetComponent<Scrollbar>().size = value / maxValue;
         barText.text = Mathf.Round(value).ToString() + " " + barTextPostfix;
     }
 }
