@@ -2,20 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[AddComponentMenu("Global/Player Stats")]
 public class PlayerStats : MonoBehaviour
 {
-    public float speed = 1.0f;
-    public float tears = 3f;
-    public float damage = 3.5f;
-    public float range = 5f;
-    public float shotSpeed = 2f;
-    public float luck = 0f;
+    [Header("Movement Settings")]
+    public float movementSpeed = 1.0f;
+    public float jumpForce = 3f;
+    public float verticalSpeedLimit = 3.5f;
+    [Space(10)]
 
-    public GameObject playerHead;
+    [HideInInspector]
+    public GameObject player;
+
+    private void Awake()
+    {
+        player = GameObject.FindGameObjectWithTag("Player");
+        if(player == null)
+        {
+            Debug.Log("Player object not found");
+        }
+    }
 
     void Start()
     {
-        
+
     }
 
     void Update()

@@ -171,8 +171,8 @@ TextureImporter:
       name: player_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 192
+        y: 256
         width: 64
         height: 64
       alignment: 7
@@ -192,7 +192,7 @@ TextureImporter:
       name: player_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 192
         width: 64
         height: 64
@@ -213,7 +213,7 @@ TextureImporter:
       name: player_5
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 192
         width: 64
         height: 64
@@ -234,7 +234,7 @@ TextureImporter:
       name: player_6
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 192
         width: 64
         height: 64
@@ -255,7 +255,7 @@ TextureImporter:
       name: player_7
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 192
         width: 64
         height: 64
@@ -276,7 +276,7 @@ TextureImporter:
       name: player_8
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 192
         width: 64
         height: 64
@@ -297,8 +297,8 @@ TextureImporter:
       name: player_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 320
+        y: 192
         width: 64
         height: 64
       alignment: 7
@@ -318,7 +318,7 @@ TextureImporter:
       name: player_10
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 128
         width: 64
         height: 64
@@ -339,7 +339,7 @@ TextureImporter:
       name: player_11
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 128
         width: 64
         height: 64
@@ -360,7 +360,7 @@ TextureImporter:
       name: player_12
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 128
         width: 64
         height: 64
@@ -381,8 +381,8 @@ TextureImporter:
       name: player_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 192
+        y: 128
         width: 64
         height: 64
       alignment: 7
@@ -402,8 +402,8 @@ TextureImporter:
       name: player_14
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 256
+        y: 128
         width: 64
         height: 64
       alignment: 7
@@ -423,8 +423,8 @@ TextureImporter:
       name: player_15
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
+        x: 320
+        y: 128
         width: 64
         height: 64
       alignment: 7
@@ -444,7 +444,7 @@ TextureImporter:
       name: player_16
       rect:
         serializedVersion: 2
-        x: 192
+        x: 0
         y: 64
         width: 64
         height: 64
@@ -465,8 +465,8 @@ TextureImporter:
       name: player_17
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 64
+        y: 64
         width: 64
         height: 64
       alignment: 7
@@ -486,8 +486,8 @@ TextureImporter:
       name: player_18
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 128
+        y: 64
         width: 64
         height: 64
       alignment: 7
@@ -507,8 +507,8 @@ TextureImporter:
       name: player_19
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 192
+        y: 64
         width: 64
         height: 64
       alignment: 7
@@ -528,7 +528,7 @@ TextureImporter:
       name: player_20
       rect:
         serializedVersion: 2
-        x: 192
+        x: 0
         y: 0
         width: 64
         height: 64
@@ -549,7 +549,7 @@ TextureImporter:
       name: player_21
       rect:
         serializedVersion: 2
-        x: 256
+        x: 64
         y: 0
         width: 64
         height: 64
@@ -562,6 +562,90 @@ TextureImporter:
       bones: []
       spriteID: b93de14a61db0b8429765a5c8954fff9
       internalID: 1301779299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69d99681ef576245b86906f649d7bee
+      internalID: -682772128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85b0c62709d56841a78b51f3dca15b7
+      internalID: 1943720629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c13c77fb3254542a53d607c81991f8
+      internalID: 9918602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35ab09e6e2f96540baec7637e2c7467
+      internalID: 1249460224
       vertices: []
       indices: 
       edges: []
@@ -587,13 +671,17 @@ TextureImporter:
       player_21: 1301779299
       player_4: 1544820509
       player_5: -65938179
+      player_25: 1249460224
+      player_23: 1943720629
       player_0: 1359977222
       player_9: -238679408
+      player_24: 9918602
       player_3: 1877129269
       player_18: -1075114121
       player_6: 1657200541
       player_10: 507007714
       player_2: -1522475755
+      player_22: -682772128
       player_20: -1333327630
       player_17: -1207552522
       player_13: -1186779281

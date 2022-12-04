@@ -4,9 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Tear
-  - PlayerTear
-  - Wall
+  - Manager
   layers:
   - Default
   - TransparentFX
@@ -14,8 +12,8 @@ TagManager:
   - 
   - Water
   - UI
-  - PlayerTears
-  - Tears
+  - Ground
+  - Walls
   - Player
   - NPC
   - 
