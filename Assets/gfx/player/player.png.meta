@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d361c35549812f14191cdaa60db9699e
+guid: 0cee5d74c15396d48b0da17e030ce24d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,295 +105,463 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_0
+      name: player_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f4e886cd6737d4593e573814635fb2
+      internalID: 1359977222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1953f349bc46a1447ad999ed6c81ff52
+      internalID: 1351732259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0b50b2263fae41bd40e039ed05d93
+      internalID: -1522475755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_3
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79a0333279663434ab30a2e664575d19
-      internalID: 560116984
+      spriteID: 348b082f60a2aaa448ba0a4f0e808cd9
+      internalID: 1877129269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_1
+      name: player_4
       rect:
         serializedVersion: 2
         x: 64
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18aec0539c09c744281ad3995538db53
-      internalID: -1140869717
+      spriteID: ff6b5e128c0e7314dbaa7a3d745c7ed6
+      internalID: 1544820509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_2
+      name: player_5
       rect:
         serializedVersion: 2
         x: 128
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 597a2f25b1406404da5d7dff067f4f81
-      internalID: 1291937667
+      spriteID: d7f9a78cdde4fe145a9669cb0210d7e9
+      internalID: -65938179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_3
+      name: player_6
       rect:
         serializedVersion: 2
         x: 192
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28a9ef64a01351744970a1de359b7997
-      internalID: -269663065
+      spriteID: 7c968d8d3db93104a8e84dca720c2022
+      internalID: 1657200541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_4
+      name: player_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eba18da7ac16ed4492633cde6c9cd2d
+      internalID: 1484909477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157fd47586ecb6c47898299aba7fc3d9
+      internalID: 2074001749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_9
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f8a246c3d3e67c40aaac3c149e3201c
-      internalID: 1833895873
+      spriteID: 603cf4e24cebdae4190feac376568fad
+      internalID: -238679408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_5
+      name: player_10
       rect:
         serializedVersion: 2
         x: 64
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7296b603177fd84f84f893f308faa5d
-      internalID: 173267173
+      spriteID: 95bd055c65ce9ff4fb85eb3ea8343259
+      internalID: 507007714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_6
+      name: player_11
       rect:
         serializedVersion: 2
         x: 128
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebfeab9b8837dda4fa950d1b8ff7329e
-      internalID: 809999837
+      spriteID: c03e0b40f1243c840b9d40dc75cb522b
+      internalID: 66436476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_7
+      name: player_12
       rect:
         serializedVersion: 2
         x: 192
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be958afabb889374b81d55b72dad737b
-      internalID: -1939612591
+      spriteID: 852d31d3d7216ba4b82336570d3873fa
+      internalID: -451346414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_8
+      name: player_13
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 413852fc5bbad7b45b07f26e7760353b
-      internalID: 645178207
+      spriteID: 90d7a15ac39aac7409ce4ecde08ba592
+      internalID: -1186779281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_9
+      name: player_14
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68a5c00558498de4c9abf5e0f12e97fd
-      internalID: -179570648
+      spriteID: 88091a6cc1aa0da43b9e3f3e8871fe5b
+      internalID: 1196542947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_10
+      name: player_15
       rect:
         serializedVersion: 2
         x: 128
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd94f76cbea2f2b48bdc11958b001606
-      internalID: -1265684972
+      spriteID: 4554f7d90a8a9514688895495a055c3c
+      internalID: 213680975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_11
+      name: player_16
       rect:
         serializedVersion: 2
         x: 192
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecd1f3002d4dfbd4794b69ed77508929
-      internalID: -903077616
+      spriteID: 49ec3187a2c69f04a84bbe645d05b817
+      internalID: 1893915257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_12
+      name: player_17
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04e26778c83e9f74985c2952ab9d141f
-      internalID: -1756004117
+      spriteID: c80e35bea8d22094abad4d40220cddab
+      internalID: -1207552522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: effect_015_tearpoof_small_13
+      name: player_18
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fb3b47a2ffa95d43994aabdad34b0ef
-      internalID: 1527835402
+      spriteID: 4fe5acdc4aabd67438a81e9709b0cf2d
+      internalID: -1075114121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e91eef4611efb49a10919407c7d52a
+      internalID: -565406943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea206ef21e35190438641d9ead12f696
+      internalID: -1333327630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: player_21
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93de14a61db0b8429765a5c8954fff9
+      internalID: 1301779299
       vertices: []
       indices: 
       edges: []
@@ -409,20 +577,28 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      effect_015_tearpoof_small_13: 1527835402
-      effect_015_tearpoof_small_0: 560116984
-      effect_015_tearpoof_small_7: -1939612591
-      effect_015_tearpoof_small_11: -903077616
-      effect_015_tearpoof_small_2: 1291937667
-      effect_015_tearpoof_small_3: -269663065
-      effect_015_tearpoof_small_6: 809999837
-      effect_015_tearpoof_small_12: -1756004117
-      effect_015_tearpoof_small_5: 173267173
-      effect_015_tearpoof_small_10: -1265684972
-      effect_015_tearpoof_small_1: -1140869717
-      effect_015_tearpoof_small_4: 1833895873
-      effect_015_tearpoof_small_8: 645178207
-      effect_015_tearpoof_small_9: -179570648
+      player_1: 1351732259
+      player_15: 213680975
+      player_16: 1893915257
+      player_8: 2074001749
+      player_14: 1196542947
+      player_12: -451346414
+      player_19: -565406943
+      player_21: 1301779299
+      player_4: 1544820509
+      player_5: -65938179
+      player_0: 1359977222
+      player_9: -238679408
+      player_3: 1877129269
+      player_18: -1075114121
+      player_6: 1657200541
+      player_10: 507007714
+      player_2: -1522475755
+      player_20: -1333327630
+      player_17: -1207552522
+      player_13: -1186779281
+      player_11: 66436476
+      player_7: 1484909477
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
