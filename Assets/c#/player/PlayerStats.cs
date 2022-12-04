@@ -34,6 +34,20 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if(currentHealth < 0 || currentHealth > maxHealth)
+        {
+            if(currentHealth < 0)
+            {
+                currentHealth = 0;
+            } else
+            {
+                currentHealth = maxHealth;
+            }
+        }
+    }
+
     public void Damage(float amount, DamageType type = DamageType.Pure)
     {
         currentHealth -= amount;

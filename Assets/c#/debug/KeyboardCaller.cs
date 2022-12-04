@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(PlayerStats))]
 public class KeyboardCaller : MonoBehaviour
 {
     private PlayerStats playerStats;
 
     private void Start()
     {
-        playerStats = GameObject.FindGameObjectWithTag("Manager").GetComponent<PlayerStats>();
+        playerStats = gameObject.GetComponent<PlayerStats>();
     }
 
     private void Update()
