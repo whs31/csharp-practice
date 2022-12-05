@@ -610,7 +610,7 @@ MonoBehaviour:
   statusBarMode: 1
   useValueChangeEffect: 1
   fadeDelay: 1
-  fadeSpeed: 0.0005
+  fadeSpeed: 0.05
   fillerImageElement: {fileID: 2132243939}
   faderElement: {fileID: 1543299033}
   textElement: {fileID: 185637253}

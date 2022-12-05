@@ -48,8 +48,30 @@ public class ValueBar : MonoBehaviour
         baseElement = GetComponent<RectTransform>();
     }
 
+    private void LateUpdate()
+    {
+        if(_fading && _timer < fadeDelay)
+        {
+            _timer += Time.smoothDeltaTime;
+        }
+
+        if (_fading && _timer >= fadeDelay)
+        {
+            UpdateTimer();
+        }
+    }
+
     public void OnValueChanged()
     {
+        if(_oldValue >= value)
+        {
+            Fade();
+        }
+        else
+        {
+            faderElement.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, (value * baseElement.rect.width) / maxValue);
+            _oldValue = value;
+        }
         fillerImageElement.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, (value * baseElement.rect.width) / maxValue);
         textElement.text = Mathf.Round(value).ToString() + " " + textPostfix;
         Debug.Log(textElement.text);
@@ -64,5 +86,25 @@ public class ValueBar : MonoBehaviour
     {
         baseElement.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, (maxValue * valueToPixelRatio));
         OnValueChanged();
+    }
+
+    private void Fade()
+    {
+        faderElement.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, (_oldValue * baseElement.rect.width) / maxValue);
+        _fading = true;
+    }
+
+    private void UpdateTimer()
+    {
+        if(_oldValue > value+fadeSpeed)
+        {
+            _oldValue -= fadeSpeed;
+            Fade();
+        } else
+        {
+            _fading = false;
+            _timer = 0f;
+        }
+
     }
 }
