@@ -16,6 +16,16 @@ public class ValueBar : MonoBehaviour
         UseColorFade
     }
 
+    protected enum ValueDisplay
+    {
+        Hide,
+        OnlyText,
+        TextWithPostfix,
+        TextWithIcon,
+        OnlyIcon,
+        All
+    }
+
     [Header("Value bar settings")]
     [SerializeField] private string textPostfix = "Units";
     [SerializeField] private float valueToPixelRatio = 1f;
